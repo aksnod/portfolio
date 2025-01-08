@@ -58,7 +58,7 @@ export default function Projects() {
                 loading="lazy"
                 width={500} // Define width
                 height={300} // Define height
-                className="w-full h-48 object-cover group-hover:scale-110 transition-all duration-500 ease-in-out"
+                className="w-full h-48 object-cover object-contain group-hover:scale-110 transition-all duration-500 ease-in-out"
               />
             </div>
             <div className="p-6">
@@ -112,7 +112,9 @@ export default function Projects() {
               <Image
                 src={selectedProject.imageUrl}
                 alt={selectedProject.title}
-                className="w-full h-64 object-cover rounded-md mb-6"
+                width={500} // Define width
+                height={300} // Define height
+                className="w-full h-48 object-contain group-hover:scale-110 transition-all duration-500 ease-in-out"
               />
               <p className="text-gray-700 text-base mb-6">
                 {selectedProject.fullDescription}
