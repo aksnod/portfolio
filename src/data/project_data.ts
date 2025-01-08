@@ -49,7 +49,7 @@ export const projectsData: ProjectInterface[] = [
       "CrossWord Bookstore: A modern, user-friendly online bookstore offering a wide selection of books, e-books, and audiobooks, with a personalized shopping experience and fast delivery.",
     fullDescription:
       "CrossWord Bookstore is a comprehensive online bookstore designed to cater to the needs of book lovers around the world. The platform offers a wide variety of books across genres like fiction, non-fiction, science, self-help, and more, including e-books and audiobooks. With its user-friendly interface, CrossWord Bookstore makes it easy for customers to search, browse, and purchase books at competitive prices.",
-    imageUrl: "/attachment.png",
+    imageUrl: "/crossword.jpeg",
     link: "",
     gitHubLink: "https://github.com/aksnod/CrossWord-bookStore",
     technologies: ["Java", "Hibernate", "JSP", "Stripe", "JavaScript", "MySQL"],
@@ -71,7 +71,7 @@ export const projectsData: ProjectInterface[] = [
       "Bonzai is a collaboration and productivity platform designed to enhance team communication, streamline workflows, and optimize project management. It offers various tools for better team engagement and project tracking.",
     fullDescription:
       "Bonzai offers a comprehensive solution for teams to collaborate more efficiently. With features like task management, file sharing, and real-time communication, it helps organizations organize their workflows, enhance productivity, and improve overall project outcomes. Bonzai integrates easily with other tools, creating a seamless experience across various business processes.",
-    imageUrl: "/attachment.png",
+    imageUrl: "/bonzai.jpeg",
     link: "",
     technologies: ["Nest.js", "Node.js", "AWS Lambda", "Python", "PostGreSQL"],
   },

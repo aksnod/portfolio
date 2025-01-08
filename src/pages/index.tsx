@@ -16,7 +16,7 @@ const Home = () => {
             Welcome to My Portfolio
           </h1>
           <p className="text-lg sm:text-xl lg:text-2xl font-light mb-6 opacity-0 animate__animated animate__fadeIn animate__delay-2s">
-            A showcase of my work, skills, and passion for web development.
+            A showcase of my work, skills, and passion for development.
           </p>
           <a
             href="#about"
